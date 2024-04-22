@@ -1,6 +1,10 @@
 /* fonts */
 
-
+nav{
+    position: fixed;
+    top: 0;
+    background-color: #bddcec;
+}
 .hero{
     display: flex;
     align-items: center;
@@ -81,6 +85,62 @@
     height: auto;
     margin: 0 auto;
 }
+
+.testimonial-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding:32px ;
+    background-color: #F5F5F5;
+}
+.testimonial-quote{
+    font-style: italic;
+    margin: 16px 0;
+    position: relative;
+}
+.testimonial-quote:before{
+    content: open-quote;
+    font-size: 4em;
+    position: absolute;
+    left: -0.6em;
+    top: -0.4em;
+    color: #CCC;
+}
+.testimonial-quote::after{
+    content: close-quote;
+    font-size: 4em;
+    position: absolute;
+    left: -0.6em;
+    top: -0.1em;
+    color: #CCC; 
+}
+.testimonial-img{
+    margin: 24px, 0;
+}
+.testimonial-cta{
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
+    transition: background-color 0.3s;
+}
+.testimonial-cta:hover{
+    background: #0056b3;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: #bddcec;
+}
+
 
 
 
