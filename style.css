@@ -58,6 +58,30 @@
     margin-bottom: 8px;
 }
 
+.alternating-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    pad: 32px 0;
+}
+.alternating-row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;  
+}
+.alternating-section .alternating-row:nth-child(even){
+    flex-direction: row-reverse;
+}
+.alternating-text, .alternating-img{
+    flex: 1;
+    padding: 16px;
+}
+.alternating-img img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
+}
+
 
 
 @media (max-width: 768px){
