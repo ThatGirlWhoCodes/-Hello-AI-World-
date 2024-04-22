@@ -1,28 +1,22 @@
 /* fonts */
 
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.title-container{
+.hero{
     display: flex;
     align-items: center;
-    gap: 16px;
-}
-.title-container h2, .title-container h3{
-    white-space: nowrap;
+    gap: 32px;
 }
 
-
+.hero, .text-content, .hero figure{
+    flex: 1;
+    padding: 0;
+}
 
 
 
 
 @media (max-width: 768px){
-    .title-container hgroup{
+    .hero{
         flex-direction: column;
     }
 }
