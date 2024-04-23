@@ -1,6 +1,20 @@
 /* fonts */
 
-nav{
+body{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+#learnMorepMain{
+    font-size: 2rem;
+    padding: 3em;
+    text-align: center;
+}
+img{
+   width: 50%;
+   padding: 1rem;
+}
+nav{   
     position: fixed;
     top: 0;
     background-color: #bddcec;
@@ -8,14 +22,21 @@ nav{
 .hero{
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap: 50px;
 }
 
+ul img{
+    width: 25%;
+    padding: 0;
+    margin: 0;
+}
 .hero, .text-content, .hero figure{
     flex: 1;
     padding: 0;
 }
-
+.hero{
+    padding-top: 2rem;
+}
 .course-categories{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
