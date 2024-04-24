@@ -10,7 +10,7 @@ body{
     padding: 3em;
     text-align: center;
 }
-img{
+.iconImg{
    width: 50%;
    padding: 1rem;
 }
@@ -59,7 +59,7 @@ ul img{
 }
 .category-list{
     margin-top: 16px;
-    display: none;
+    list-style: none;
 }
 .category-list.open{
     display: block;
@@ -86,12 +86,13 @@ ul img{
 .alternating-section{
     max-width: 1200px;
     margin: 0 auto;
-    pad: 32px 0;
+    padding: 0;
 }
 .alternating-row{
     display: flex;
     align-items: center;
     margin-bottom: 48px;  
+    padding: 0;
 }
 .alternating-section .alternating-row:nth-child(even){
     flex-direction: row-reverse;
@@ -101,8 +102,10 @@ ul img{
     padding: 16px;
 }
 .alternating-img img{
-    width: 100%;
+    width: 60%;
     max-width: 500px;
+    padding: 0;
+    margin-right: 0;
     height: auto;
     margin: 0 auto;
 }
@@ -116,7 +119,9 @@ ul img{
     background-color: #F5F5F5;
 }
 .testimonial-quote{
+    align-items: center;
     font-style: italic;
+    font-size: 1.5rem;
     margin: 16px 0;
     position: relative;
 }
