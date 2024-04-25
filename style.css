@@ -59,7 +59,7 @@ ul img{
 }
 .category-list{
     margin-top: 16px;
-    list-style: none;
+    display: none;
 }
 .category-list.open{
     display: block;
