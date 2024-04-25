@@ -152,15 +152,19 @@ ul img{
     width: 75%;
     margin: 24px, 0;
 }
-.testimonial-cta{
+.testimonial-container{
+    text-align: center;
+}
+.testimonial-cta {
+    display: inline-block;
     background-color: #007BFF;
     color: white;
-    padding: 10em ;
     padding: 10px 20px;
+    margin: 10px 0;
     text-decoration: none;
     border-radius: 5px;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
     transition: background-color 0.3s;
+    cursor: pointer;
 }
 .testimonial-cta:hover{
     background: #0056b3;
