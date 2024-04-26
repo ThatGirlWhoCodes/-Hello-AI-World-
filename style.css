@@ -125,7 +125,7 @@ ul img {
     display: flex;
     align-items: center;
     margin-bottom: 48px;
-    padding: 0;
+    padding: 2em;
 }
 
 .alternating-section .alternating-row:nth-child(even) {
@@ -163,6 +163,7 @@ ul img {
 }
 
 .testimonial-text:before {
+    padding: 2em;
     content: open-quote;
     font-size: 4em;
     position: absolute;
