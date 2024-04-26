@@ -5,6 +5,10 @@ body{
     font-weight: 500;
     font-style: normal;
 }
+ul li{
+    list-style-type: none;
+    padding-left: 0;
+}
 #bolded-type{
     font-size: 2rem;
     padding: 3em;
@@ -168,6 +172,12 @@ ul img{
 }
 .testimonial-cta:hover{
     background: #0056b3;
+}
+
+.final-word{
+    background-color: #F2E394;
+    border-radius: 3rem;
+
 }
 
 
