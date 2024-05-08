@@ -55,7 +55,7 @@ const questions = [
 {
   question: "What is a practical application of AI in the real world?",
   choices: [" To develop video games.", "To enhance musical instruments.", "To predict weather accurately.", "All of the above."],
-  correctAnswer: 4
+  correctAnswer: 3
 }
 ];
 
@@ -95,6 +95,13 @@ function checkAnswer(selectedIndex) {
         feedbackText.textContent = "Wrong answer, try again!";
         feedbackText.style.color = "red";
     }
+}
+
+function showCompletionScreen() {
+  const quizContainer = document.getElementById('question-container');
+  quizContainer.innerHTML = `
+      <p>Finished! Congratulations on completing the quiz!</p>
+  `;
 }
 
 window.onload = displayQuestion; // Display the first question on load
