@@ -83,7 +83,9 @@ ul img {
 .category-list.open {
     display: block;
 }
-
+li a{
+    color: #000;
+}
 .why-ai-works {
     display: flex;
     justify-content: space-between;
@@ -209,6 +211,11 @@ ul img {
 .final-word {
     background-color: #F2E394;
     border-radius: 3rem;
+}
+
+.special-header{
+    padding: 2.5rem;
+    text-align: center;
 }
 
 footer {
