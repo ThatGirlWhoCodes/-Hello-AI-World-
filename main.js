@@ -88,7 +88,8 @@ function checkAnswer(selectedIndex) {
                 displayQuestion();
                 feedbackText.textContent = ''; // Clear feedback
             } else {
-                document.getElementById('question-container').innerHTML = '<p>Congratulations, you have completed the quiz!</p>';
+                document.getElementById('question-container').innerHTML = '<p>Congratulations, you have completed the quiz!</p>'
+                ;
             }
         }, 1000); // Move to the next question after 1 second
     } else {
