@@ -12,7 +12,6 @@ body {
 
 ul li {
     list-style-type: none;
-    padding-left: 0;
 }
 
 #bolded-type {
@@ -35,7 +34,7 @@ nav {
 .hero {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
 }
 
 ul img {
@@ -52,7 +51,7 @@ ul img {
 }
 
 .hero {
-    padding-top: 2rem;
+    padding-top: 8rem;
 }
 
 .course-categories {
@@ -75,9 +74,9 @@ ul img {
     margin-bottom: 8px;
 }
 
-.category-card h4 {
+/* .category-card h4 {
     margin: 8px 0;
-}
+} */
 
 .category-list {
     margin-top: 16px;
@@ -89,6 +88,7 @@ ul img {
 }
 li a{
     color: #000;
+    padding: 2em;
 }
 .why-ai-works {
     display: flex;
@@ -256,5 +256,10 @@ footer {
         font-style: italic;
         max-width: 1500px;
         position: relative;
+    }
+    #bolded-type {
+        font-size: 1.5rem;
+        padding: 1em;
+        text-align: center;
     }
 }
