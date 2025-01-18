@@ -9,30 +9,82 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">HELLO(AI)WORLD</a>
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="interviews.html">Interviews</a></li>
-            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link" href="interviews.html">Interviews</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
+    
 
-    <section class="bg-primary text-white text-center py-5">
+    <header class="bg-primary text-white text-center py-5">
         <div class="container">
             <h1>Resources</h1>
-            <ul>
-                <li><a href="https://chat.openai.com" target="_blank">ChatGPT</a></li>
-                <li><a href="https://www.khanacademy.org/" target="_blank">Khan Academy</a></li>
-                <li><a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a></li>
+            <p class="lead">Handpicked tools and resources to support your AI journey.</p>
+        </div>
+    </header>
+
+    <!-- AI Tools Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Popular AI Tools</h2>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <h5>ChatGPT</h5>
+                    <p>An AI-powered chatbot that assists with text-based tasks, questions, and more. <a href="https://chat.openai.com" target="_blank">Try it here</a>.</p>
+                </li>
+                <li class="list-group-item">
+                    <h5>Khan Academy</h5>
+                    <p>A platform offering AI-driven education tools. <a href="https://www.khanacademy.org" target="_blank">Learn more</a>.</p>
+                </li>
+                <li class="list-group-item">
+                    <h5>TensorFlow</h5>
+                    <p>A popular framework for building and deploying AI models. <a href="https://www.tensorflow.org" target="_blank">Explore it here</a>.</p>
+                </li>
             </ul>
         </div>
     </section>
 
-    <footer class="bg-dark text-white py-3 text-center">
-        <p>© 2025 HELLO(AI)WORLD. All rights reserved.</p>
-    </footer>
-</body>
+    <!-- Learning Resources Section -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Learning Resources</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Books</h5>
+                    <ul>
+                        <li><strong>"AI Superpowers"</strong> by Kai-Fu Lee</li>
+                        <li><strong>"Life 3.0"</strong> by Max Tegmark</li>
+                        <li><strong>"Deep Learning"</strong> by Ian Goodfellow</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h5>Online Courses</h5>
+                    <ul>
+                        <li><a href="#">AI for Beginners - Udemy</a></li>
+                        <li><a href="#">Introduction to AI - Coursera</a></li>
+                        <li><a href="#">AI in Practice - edX</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <footer class="bg-dark text-white py-3">
+        <div class="container text-center">
+            <p>© 2025 HELLO(AI)WORLD. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
 </html>

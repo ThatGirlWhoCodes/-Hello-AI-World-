@@ -9,26 +9,99 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">HELLO(AI)WORLD</a>
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
-            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link" href="interviews.html">Interviews</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
+    
 
-    <section class="bg-primary text-white text-center py-5">
+    <header class="bg-primary text-white text-center py-5">
         <div class="container">
             <h1>Interviews</h1>
-            <p>Coming soon: Interviews with AI users at all levels, from beginners to experts.</p>
+            <p class="lead">Insights from AI users of all levels.</p>
+        </div>
+    </header>
+
+    <!-- Interviews Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Featured Interviews</h2>
+            <div class="row g-4">
+                <!-- Interview 1 -->
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Alex Johnson - AI Power User</h5>
+                            <p class="card-text"><strong>Initial Thoughts on AI:</strong> "AI has completely transformed the way I approach problem-solving and productivity."</p>
+                            <p class="card-text"><strong>Impact on Workflow:</strong> Alex shared that using AI tools like ChatGPT and TensorFlow has reduced task completion times by over 50%. He uses AI daily for coding, project management, and brainstorming ideas.</p>
+                            <p><strong>Favorite Tools:</strong> "Definitely ChatGPT for quick problem-solving and TensorFlow for building AI models."</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Interview 2 -->
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Priya Kumar - Occasional User</h5>
+                            <p class="card-text"><strong>Initial Thoughts on AI:</strong> "I was initially skeptical about AI, but now I use it for specific tasks like writing and summarizing reports."</p>
+                            <p class="card-text"><strong>Hesitations:</strong> Priya expressed concerns about the learning curve, but she found tools like ChatGPT easy to use after initial experimentation.</p>
+                            <p class="card-text"><strong>AI in Daily Life:</strong> "I don’t use it daily, but for tasks like drafting emails or quick research, AI is a lifesaver."</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Interview 3 -->
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">John Miller - Beginner</h5>
+                            <p class="card-text"><strong>Initial Thoughts on AI:</strong> "It seemed intimidating at first, but I’m curious to learn more."</p>
+                            <p class="card-text"><strong>Challenges:</strong> John mentioned feeling overwhelmed by technical jargon, but he’s eager to start with beginner-friendly tools like ChatGPT.</p>
+                            <p class="card-text"><strong>Future Goals:</strong> "I’d love to learn how to use AI to streamline my small business operations."</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Interview 4 -->
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Emily Carter - AI Enthusiast</h5>
+                            <p class="card-text"><strong>Initial Thoughts on AI:</strong> "AI is fascinating! I love exploring new tools and testing their limits."</p>
+                            <p class="card-text"><strong>Experience:</strong> Emily experiments with AI for creative tasks, such as generating artwork and writing short stories. "It’s amazing what AI can create when given the right prompts."</p>
+                            <p class="card-text"><strong>Advice:</strong> "Don’t be afraid to make mistakes while learning. Play around with AI, and you’ll discover its potential."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <footer class="bg-dark text-white py-3 text-center">
-        <p>© 2025 HELLO(AI)WORLD. All rights reserved.</p>
+    <!-- Call to Action -->
+    <section class="py-5 bg-primary text-white text-center">
+        <div class="container">
+            <h2>Want to Share Your AI Story?</h2>
+            <p class="lead">We’re always looking for new insights! Reach out to us to be featured in our next interview series.</p>
+            <a href="contact.html" class="btn btn-light btn-lg">Get in Touch</a>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-3">
+        <div class="container text-center">
+            <p>© 2025 HELLO(AI)WORLD. All rights reserved.</p>
+        </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>

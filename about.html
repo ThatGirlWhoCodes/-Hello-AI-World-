@@ -9,26 +9,89 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">HELLO(AI)WORLD</a>
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
-                <li class="nav-item"><a class="nav-link" href="interviews.html">Interviews</a></li>
-            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link" href="interviews.html">Interviews</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
-
-    <section class="bg-primary text-white text-center py-5">
+    
+    <header class="bg-primary text-white text-center py-5">
         <div class="container">
             <h1>About Us</h1>
-            <p>HELLO(AI)WORLD is here to bridge the gap between AI enthusiasts and those intimidated by the technology. Whether you're an expert or a beginner, we aim to make AI accessible and helpful for all.</p>
+            <p class="lead">Learn about our mission to make AI accessible to everyone.</p>
+        </div>
+    </header>
+
+    <!-- Our Mission Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Mission</h2>
+            <p>At HELLO(AI)WORLD, we strive to demystify Artificial Intelligence. Whether you're a tech enthusiast or completely new to AI, our goal is to provide tools, resources, and insights to empower you to engage with AI effectively.</p>
         </div>
     </section>
 
-    <footer class="bg-dark text-white py-3 text-center">
-        <p>© 2025 HELLO(AI)WORLD. All rights reserved.</p>
+    <!-- Our Team Section -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Meet Our Team</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/team1.jpg" class="card-img-top" alt="Team Member 1">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Alex Johnson</h5>
+                            <p class="card-text">Founder and AI Enthusiast</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/team2.jpg" class="card-img-top" alt="Team Member 2">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Priya Kumar</h5>
+                            <p class="card-text">AI Specialist and Educator</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/team3.jpg" class="card-img-top" alt="Team Member 3">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Jamie Lee</h5>
+                            <p class="card-text">Web Developer and Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="py-5 bg-primary text-white text-center">
+        <div class="container">
+            <h2>Join Our Mission</h2>
+            <p class="lead">Discover how AI can transform your life and work.</p>
+            <a href="#" class="btn btn-light btn-lg">Learn More</a>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-3">
+        <div class="container text-center">
+            <p>© 2025 HELLO(AI)WORLD. All rights reserved.</p>
+        </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>
